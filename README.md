@@ -1,1 +1,1 @@
-Greeting app
+Greetings app inspired by google extension "Momentum" but added a Pokemon theme. Editable name and focus space and saved on local storage, along with resetting the focus message every day (12:00 AM) to encourage user to complete previous focus and continue to add a new everyday.
