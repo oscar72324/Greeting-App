@@ -1,0 +1,56 @@
+/* @import url(https://fonts.googleapis.com/css?family=Sigmar+One); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: 'Pokemon Solid', sans-serif; */
+    font-family: 'Press Start 2P', cursive;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+
+#time{
+    font-size: 4.5em;
+    margin-bottom: 2em;
+}
+
+h1{
+    margin-bottom: 2em;
+}
+
+h2{
+    margin-bottom: 2em;
+}
+
+@media (max-width:936px){
+    #time{
+        font-size: 3em;
+    }
+
+    h1, h2{
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:628px){
+    #time{
+        font-size: 2em;
+    }
+
+    h1, h2{
+        font-size: 1em;
+    }
+}
