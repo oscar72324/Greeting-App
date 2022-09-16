@@ -111,6 +111,15 @@ function setFocus(e){
 name.spellcheck = false;
 focus.spellcheck = false;
 
+function deleteStorage(){
+    let today = new Date(),
+        hour = today.getHours();
+    if(hour === 0){
+        localStorage.removeItem('focus');
+    }
+
+setTimeout(deleteStorage, 3600000)
+}
 
 
 name.addEventListener('keypress', setName)
@@ -118,6 +127,8 @@ name.addEventListener('blur', setName)
 focus.addEventListener('keypress', setFocus)
 focus.addEventListener('blur', setFocus)
 
+
+deleteStorage();
 getName();
 getFocus();
 setBack();
